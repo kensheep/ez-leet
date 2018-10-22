@@ -1,0 +1,2 @@
+The idea is pretty straightforward: keep a list of sorted intervals, for every newcomers, find its position in the sorted list and check if it overlaps with its immediate front and back interval.
+To maintain a list of sorted items, I used TreeSet, some people might use TreeMap (key value pair being the interval itself). Both works and in terms of time complexity, they are the same in .add() and .put(), both are O(logn).

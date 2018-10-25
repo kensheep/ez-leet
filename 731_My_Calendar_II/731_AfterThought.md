@@ -1,0 +1,1 @@
+Continuing the idea of MyCalendar, we want to check two event ahead and two event. But it fails at some test cases. Taking a look at other people's solution gives me better understanding of how this should be approached.
